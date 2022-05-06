@@ -7,13 +7,7 @@
 ### 访问地址
 [北京疫情封控区地图](https://maplab.amap.com/share/mapv/272589e85e2eb5c8861ad9a4f7e08075)
 
-<iframe
-    src="https://maplab.amap.com/share/mapv/272589e85e2eb5c8861ad9a4f7e08075"
-    width="600" 
-    height="500" 
-    frameborder="0" 
-    scrolling="no">
-</iframe>
+[![Go to the map](./asset/map.png)](https://maplab.amap.com/share/mapv/272589e85e2eb5c8861ad9a4f7e08075)
 
 
 ### 构建步骤
