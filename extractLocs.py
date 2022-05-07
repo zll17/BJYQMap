@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 
 today = datetime.datetime.now().strftime('%Y%m%d')
-today = '20220506'
+#today = '20220506'
 
 raw_dir = './data/raw/'
 proceed_dir = './data/proceed/'

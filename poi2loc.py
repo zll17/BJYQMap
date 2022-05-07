@@ -31,6 +31,8 @@ for status,dist,addr in addr_lst:
     print('resp: ',resp)
     if resp['status'] == 'OK':
         res = resp['result']
+        if len(res)==0:
+            continue
         loc = res['location']
         bdlng, bdlat = loc['lng'], loc['lat']
         gcj_coord = coordTrobj.CoordTran(bdlng, bdlat)
