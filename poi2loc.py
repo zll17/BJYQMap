@@ -4,7 +4,7 @@ import pandas as pd
 import datetime
 from chinacoordtran import bd09togcj02
 
-APIKEY = 'CG8eakl6UTlEb1OakeWYvofh'
+APIKEY = open('APIKEY.txt').read().strip()
 today = datetime.datetime.now().strftime('%Y%m%d')
 
 raw_dir = './data/raw/'
